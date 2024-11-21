@@ -1,5 +1,5 @@
 public class Kafe23 {
-    public static void Menu() {
+    public static void main(String[] args) {
         System.out.println("===== MENU RESTO KAFE =====");
         System.out.println("1. Kopi Hitam - Rp 15,000");
         System.out.println("2. Cappucino - Rp 20,000");
@@ -9,12 +9,5 @@ public class Kafe23 {
         System.out.println("6. Mie Goreng - Rp 18,000");
         System.out.println("===========================");
         System.out.println("Silahkan Pilih Menu Yang Anda Inginkan.");
-    
-       
-        }
-        public static void main(String[]args) {
-            Menu();
-        }
-    
-    
+    }
 }
